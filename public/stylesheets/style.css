@@ -45,5 +45,28 @@ nav {
 }
 
 #promo {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 
+#footerText {
+  text-align: center;
+}
+
+.services {
+  margin: 40px 40px;
+}
+
+#description {
+  text-align: center;
+}
+
+#bannerLogo {
+  width: 400px;
+  height: 400px;
+}
+
+#btn waves-effect white grey-text darken-text-2 {
+  text-align: center;
+  margin: 1000px;
 }
