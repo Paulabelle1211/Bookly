@@ -59,6 +59,7 @@ nav {
 
 #description {
   text-align: center;
+  margin: 10px 80px;
 }
 
 #bannerLogo {
@@ -68,5 +69,16 @@ nav {
 
 #btn waves-effect white grey-text darken-text-2 {
   text-align: center;
-  margin: 1000px;
+  margin: 100px;
+}
+
+#first-carousel {
+  background-image: url('/images/pics/gaming_pic_and_big_screen.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+}
+
+.iconLetters {
+  text-align: center;
 }
