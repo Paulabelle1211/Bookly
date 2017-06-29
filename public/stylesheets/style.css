@@ -8,7 +8,7 @@ nav {
 }
 
 .img-circle{
-  margin: 15px 65px;
+  margin: 15px 55px;
   border-radius: 100%;
   width: 200px;
   height: 200px;
@@ -63,8 +63,8 @@ nav {
 }
 
 #bannerLogo {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 #btn waves-effect white grey-text darken-text-2 {
@@ -79,10 +79,52 @@ nav {
   background-position: center;
 }
 
+#second-carousel {
+  background-image: url('/images/pics/yolo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+}
+
+#third-carousel {
+  background-image: url('/images/pics/image.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+}
+
+#fourth-carousel {
+  background-image: url('/images/pics/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+}
+
+#fifth-carousel {
+  background-image: url('/images/pics/downlo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+}
+
 .iconLetters {
   text-align: center;
 }
+.material-icons {
+  /*width: 400px;
+  height: 400px;*/
+  font-size: 200%
+}
 
-#cardsServices {
-  : center;
+#footerText{
+  display: inline;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+}
+
+#navImage{
+  width: 400px;
 }
