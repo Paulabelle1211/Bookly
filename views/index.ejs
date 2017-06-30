@@ -16,7 +16,7 @@
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-    <title>Bookly</title>
+    <title>Gamely</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
 
     </script>
@@ -25,12 +25,11 @@
 
   <nav>
       <div class="nav-wrapper">
-        <img src="/images/Booklylogo2.png" alt="" width="65px">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-          <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-          <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
-          <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+        <img src="/images/logos/gamely/logo.png" alt="" width="65px">
+        <ul class="right hide-on-med-and-down" >
+          <li><a href=""><i class="material-icons">search</i></a></li>
+          <li><a href=""><i class="material-icons">view_module</i></a></li>
+          <li class="button-collapse" data-activates="slide-out"><a href="#"><i class="material-icons test">more_vert</i></a></li>
         </ul>
       </div>
     </nav>
@@ -38,19 +37,32 @@
 <ul id="slide-out" class="side-nav">
     <li><div class="user-view">
       <div class="background">
-        <img src="images/office.jpg">
+        <img id="navImage" src="images/pics/wallpaper.jpg">
       </div>
-      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#!name"><span class="white-text name">John Doe</span></a>
-      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      <a href="#!user"><img class="circle" src="/images/pics/blue.jpg"></a>
+      <a href="#!name"><span class="white-text name">Somebody</span></a>
+      <a href="#!email"><span class="white-text email">Somebody123@gmail.com</span></a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
+    <li><a href="#!"><i class="material-icons">perm_identity</i>Profile</a></li>
+    <li><a href="#!">My Collection</a></li>
+    <li><a href="#!">My Games</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><a class="subheader">Categories</a></li>
+    <li><a class="waves-effect" href="#!">Kids</a></li>
+    <li><a class="waves-effect" href="#!">Indie</a></li>
+    <li><a class="waves-effect" href="#!">Sandbox</a></li>
+    <li><a class="waves-effect" href="#!">Action</a></li>
+    <li><a class="waves-effect" href="#!">Minigames</a></li>
+    <li><a class="waves-effect" href="#!">Comedy</a></li>
+    <li><a class="waves-effect" href="#!">Medieval</a></li>
+    <li><a class="waves-effect" href="#!">Horror</a></li>
+    <li><a class="waves-effect" href="#!">Dancing/Singing</a></li>
+    <li><a class="waves-effect" href="#!">Art</a></li>
+    <li><a class="waves-effect" href="#!">Other</a></li>
+
+
+
   </ul>
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
 <!--<nav class="nav-extended">
     <div class="nav-wrapper">
@@ -81,51 +93,47 @@
 
       <div class="carousel carousel-slider center" data-indicators="true">
         <div class="carousel-fixed-item center">
-          <a class="btn waves-effect white grey-text darken-text-2">button</a>
+          <a class="btn waves-effect white grey-text darken-text-2">Start Gaming</a>
         </div>
-        <div class="carousel-item red white-text" href="#one!">
-          <h2>Buy Books and videogames</h2>
-          <p class="white-text">Buy any book and read it any time</p>
+        <div id="first-carousel" class="carousel-item white-text" href="#one!">
+          <img id=bannerLogo src="/images/logos/Gamely/logo.png" alt="">
         </div>
-        <div class="carousel-item amber white-text" href="#two!">
-          <h2>Read Online</h2>
-          <p class="white-text">Read the books that you have alredy buyed any time and even without inthernet</p>
+        <div id="second-carousel" class="carousel-item white-text" href="#two!">
+          <h2>Play games online or offline</h2>
+          <p class="white-text">Play the games you already bought without wifi or data.</p>
         </div>
-        <div class="carousel-item green white-text" href="#three!">
-          <h2>Write Your Books</h2>
-          <p class="white-text">Write books of whatever you want</p>
+        <div id="third-carousel" class="carousel-item white-text" href="#three!">
+          <h2>Develop and publish your games</h2>
+          <p class="white-text">Make and publish your videogames in a fast and easy way.</p>
         </div>
-        <div class="carousel-item blue white-text" href="#four!">
-          <h2>Sell Your Books and videogames</h2>
+        <div id="fourth-carousel" class="carousel-item white-text" href="#four!">
+          <h2>Comment Your Videogames</h2>
           <p class="white-text">Sell your books from $1 to $80 and videogames from $1 to $100</p>
         </div>
-        <div class="carousel-item medium orange white-text" href="#four!">
-          <h2>Sell Your Books and videogames</h2>
+        <div id="fifth-carousel" class="carousel-item white-text" href="#five!">
+          <h2>Sell Your Videogames</h2>
+          <p class="white-text">Sell your videogames from $1 to $100</p>
+        </div>
+        <!-- <div class="carousel-item purple white-text" href="#six!">
+          <h2>Sell Your Videogames</h2>
           <p class="white-text">Sell your books from $1 to $80 and videogames from $1 to $100</p>
         </div>
-        <div class="carousel-item purple white-text" href="#four!">
-          <h2>Sell Your Books and videogames</h2>
-          <p class="white-text">Sell your books from $1 to $80 and videogames from $1 to $100</p>
-        </div>
-        <div class="carousel-item white black-text" href="#four!">
-          <h2>Sell Your Books and videogames</h2>
-          <p class="white-text">Sell your books from $1 to $80 and videogames from $1 to $100</p>
-        </div>
-        <div class="carousel-item cyan black-text" href="#four!">
-          <h2>Sell Your Books and videogames</h2>
-          <p class="white-text">Sell your books from $1 to $80 and videogames from $1 to $100</p>
+        <div class="carousel-item white black-text" href="#seven!">
+          <h2>Sell Your Videogames</h2>
+          <p class="white-text">Sell your books from $1 to $80 and videogames from $1 to $100</p> -->
         </div>
       </div>
 
+
         <script type="text/javascript" src="/javascripts/materialize.js"></script>
 
-<h1>Our Mission <class=sectionHeadings></h1>
+<h2 class=sectionHeadings>Gamely: the world's largest community for gamers</h2>
 
-  <div class="row">
+<!--<div class="row">
    <div class="col s12 m6">
      <div class="card">
        <div class="card-image">
-         <img src="./images/minecraft2.jpg">
+         <img src="./images//pics/blue.jpg">
          <span class="card-title">Why we did it?</span>
          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
        </div>
@@ -134,13 +142,13 @@
        </div>
      </div>
    </div>
-<!-- </div> -->
+</div>
 
-        <!-- <div class="row"> -->
+<div class="row">
     <div class="col s12 m6">
       <div class="card">
         <div class="card-image">
-          <img src="./images/minecraft2.jpg">
+          <img src="./images//pics/blue.jpg">
           <span class="card-title">The Problem</span>
           <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
         </div>
@@ -155,7 +163,7 @@
       <div class="col s6 offset-s3">
         <div class="card">
           <div class="card-image">
-            <img src="./images/minecraft2.jpg">
+            <img src="./images//pics/blue.jpg">
             <span class="card-title">The Solution</span>
             <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
           </div>
@@ -166,17 +174,130 @@
       </div>
     </div>
 
-<h1>Services</h1>
+    <div class="row">
+    <div class="card col s6">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/images//pics/blue.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+    </div>
 
-<div class="col s12 m7">
+        <div class="card col s6">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="/images//pics/blue.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="card col s6 offset-s3">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="/images//pics/blue.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>-->
+
+<h5 id="description">This is the new Wattpad and TripAdvisor for gaming.
+    We strived to develop a website in which you can upload and play games. People can easily review the game in a fast and easy
+    way and the developers get constructively criticized about their creation. You can sell or buy a paid game,
+    free game or a name your price so you can donate to the developer.</h5>
+
+ <br>
+
+<!--   Icon Section   -->
+<div class="row">
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h4 class="center brown-text"><i class="material-icons">cloud_upload</i></h4>
+        <h5 class="center">UPLOAD</h5>
+
+      <h5 class="light">Upload and tag your creation so other people see can it and enjoy it. </h5>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+            <div class="iconLetters" class="icon-block">
+              <h4 class="center brown-text"><i class="material-icons">play_circle_filled</i></h4>
+                <h5 class="center">PLAY</h5>
+
+              <h5 class="light">Play any game, anytime, online or offline (as long as you download it)</h5>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+                    <div class="iconLetters" class="icon-block">
+                      <h4 class="center brown-text"><i class="material-icons">textsms</i></h4>
+                        <h5 class="center">REVIEWS</h5>
+
+                      <h5 class="light">If you have a suggestion, review, rating or comment, say it! It will help make the game better for everyone</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="parallax-container valign-wrapper">
+              <div class="section no-pad-bot">
+                <div class="container">
+                  <div class="row center">
+                    <h5 class="header col s12 light">Upload and sell your complete game after you have applied the suggestions that the people mentioned in the demo.</h5>
+                  </div>
+                </div>
+              </div>
+            <div class="parallax"><img src="Videogame4.jpg" alt="Unsplashed background img 2"></div>
+          </div>
+
+            <div class="container">
+              <div class="section">
+
+                <div class="row">
+                  <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                      <h4>START NOW</h4>
+                    <h5 class="left-align light">First, upload your game demo to our website, now wait until some people begin to use your game and strart suggesting about the game for you to get better the complete game.
+                Play the demo of the free game, the complete game will be between $5-$150 but it will be released after the demo since some of the suggestions given to the demo will be added to the complete game to get it even better than it is.</h5>
+                  </div>
+                </div>
+
+              </div>
+           </div> -->
+
+<h1 class=sectionHeadings><br></h1>
+
+<!-- <div id="cardsServices" class="row">
+
+<div class="col s12 m7""services">
     <h2 class="header"></h2>
     <div class="card horizontal">
       <div class="card-image">
-        <img src="/images/minecraft2.jpg">
+        <img src="/images/pics/blue.jpg">
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <p><h3>Create</h3></p>
+          <p><h3></h3></p>
         </div>
         <div class="card-action">
           <a href="#">...</a>
@@ -185,15 +306,15 @@
     </div>
   </div>
 
-<div class="col s12 m7">
+<div class="col s12 m7""services">
     <h2 class="header"></h2>
     <div class="card horizontal">
       <div class="card-image">
-        <img src="/images/minecraft2.jpg">
+        <img src="/images/pics/blue.jpg">
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <p><h3>Publish</h3></p>
+          <p><h3></h3></p>
         </div>
         <div class="card-action">
           <a href="#">...</a>
@@ -202,15 +323,15 @@
     </div>
   </div>
 
-<div class="col s12 m7">
+<div class="col s12 m7""services">
     <h2 class="header"></h2>
     <div class="card horizontal">
       <div class="card-image">
-        <img src="/images/minecraft2.jpg">
+        <img src="/images/pics/blue.jpg">
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <p><h3>Buy</h3></p>
+          <p><h3></h3></p>
         </div>
         <div class="card-action">
           <a href="#">...</a>
@@ -219,59 +340,124 @@
     </div>
   </div>
 
-<h1>Company Values</h1>
+</div> -->
+
+<h1 class=sectionHeadings>Company Values</h1>
+<div class="row">
 
 <div class="values">
-      <div class="col s12 m5">
+      <div class="col s6">
         <div class="card-panel teal">
-          <span class="white-text"><h3>Creativity</h3>
+          <span class="white-text"><h3 class="valuesText">Creativity</h3>
           </span>
         </div>
       </div>
     </div>
 
 <div class="values">
-      <div class="col s12 m5">
+      <div class="col s6">
         <div class="card-panel teal">
-          <span class="white-text"><h3>Quality</h3>
+          <span class="white-text"><h3 class="valuesText">Quality</h3>
           </span>
         </div>
       </div>
     </div>
 
 <div class="values">
-      <div class="col s12 m5">
+      <div class="col s6">
         <div class="card-panel teal">
-          <span class="white-text"><h3>Fun</h3>
+          <span class="white-text"><h3 class="valuesText">Fun</h3>
           </span>
         </div>
       </div>
     </div>
 
 <div class="values">
-      <div class="col s12 m5">
+      <div class="col s6">
         <div class="card-panel teal">
-          <span class="white-text"><h3>Honesty</h3>
+          <span class="white-text"><h3 class="valuesText">Honesty</h3>
           </span>
         </div>
       </div>
     </div>
 
 <div class="values">
-      <div class="col s12 m5">
+      <div class="col s12">
         <div class="card-panel teal">
-          <span class="white-text"><h3>Responsability</h3>
+          <span class="white-text"><h3 class="valuesText">Responsability</h3>
           </span>
         </div>
       </div>
     </div>
 
-<h1>The Team</h1>
+</div>
+<h1 class=sectionHeadings>The Team</h1>
 
-<img class="img-circle" src="/images/Capture.png">
-<img class="img-circle" src="/images/Capture.png">
-<img class="img-circle" src="/images/Capture.png">
-<img class="img-circle" src="/images/Capture.png">
+<div id="team-content" class="row">
+
+  <div class="col s3">
+    <img class="img-circle" src="/images/pics/alejandro.jpg">
+    <h5>Alejandro Gonzalez <br> Presenter</h5>
+  </div>
+  <div class="col s3">
+    <img class="img-circle" src="/images/pics/thais.jpg">
+    <h5>Thais Camacho <br> Note taker</h5>
+  </div>
+  <div class="col s3">
+    <img class="img-circle" src="/images/pics/paula.jpg">
+    <h5>Paula Hernandez <br> Lider y Artista</h5>
+  </div>
+  <div class="col s3">
+    <img class="img-circle" src="/images/pics/allan.png">
+    <h5>Allan Joubert <br> Resource Investigator</h5>
+  </div>
+</div>
+
+<div class="center-align">
+  <a id="promo" class="waves-effect waves-light btn-large" href="/promotion"><i class="material-icons left">input</i>Promo</a>
+</div>
+
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12" id="footerText">
+           <!-- <h5 class="white-text" id="footerText">About Us</h5>
+                <h5 class="white-text" id="footerText">Developers</h5>
+                <h5 class="white-text" id="footerText">Jobs</h5>
+                <h5 class="white-text" id="footerText">Directory</h5>
+                <h5 class="white-text" id="footerText">Business</h5>
+                <h5 class="white-text" id="footerText">Gamely Labs</h5>
+                <h5 class="white-text" id="footerText">Press</h5>
+                <h5 class="white-text" id="footerText">Terms</h5> -->
+                <p class="grey-text text-lighten-4"></p>
+              </div>
+              <div class="col l4 s6" id="footerText">
+                <h5 class="white-text"></h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Developers</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Jobs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Directory</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Business</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Gamely Labs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Press</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Terms</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            <!-- © 2014 Copyright Text -->
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
+
+
+
+
+
 
   </body>
 
