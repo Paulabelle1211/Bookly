@@ -15,6 +15,7 @@
 
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+ <script type="text/javascript" src="/javascripts/materialize.js"></script>
 
     <title>Gamely</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
@@ -25,70 +26,114 @@
 
   <nav>
       <div class="nav-wrapper">
-        <img src="/images/Booklylogo2.png" alt="" width="65px">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-          <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-          <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
-          <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+        <img src="/images/logos/gamely/logo.png" alt="" width="65px">
+        <ul class="right hide-on-med-and-down" >
+          <li><a href=""><i class="material-icons">search</i></a></li>
+          <li><a href=""><i class="material-icons">view_module</i></a></li>
+          <li class="button-collapse" data-activates="slide-out"><a href="#"><i class="material-icons test">more_vert</i></a></li>
         </ul>
       </div>
     </nav>
 
-    <h1>Our promotion<h1>
-    <img src="http://bostonvcblog.typepad.com/.a/6a00d83424781853ef01b8d177f8d1970c-pi" alt="" style="width:500px;height:500px;">
-    <h2>We decided to market it on every social media with new videos, photos and text every day. and our marketing
-      campaign will be different. It will get a consistent stream of new people so we never lose customers and always get new ones. </h2>
-    <h4><a href="https://www.powtoon.com/online-presentation/dz8OL0yglTZ/?mode=movie#/"> Check out our video</a></h3>
-
-<h5>Our Social Medias</h5>
-
- <img src="https://media-private.canva.com/MACZt7yFM1A/1/screen.png?response-expires=Wed%2C%2028%20Jun%202017%2018%3A05%3A24%20GMT&AWSAccessKeyId=AKIAJJATJK7JCUD446NA&Expires=1498673124&Signature=MWGUa705Q3X9nbEIVZvkGyhwTg0%3D" alt="Socail"width="500p">
-
-
-
-
-
 <ul id="slide-out" class="side-nav">
     <li><div class="user-view">
       <div class="background">
-        <img src="images/office.jpg">
+        <img id="navImage" src="images/pics/wallpaper.jpg">
       </div>
-      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#!name"><span class="white-text name">John Doe</span></a>
-      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      <a href="#!user"><img class="circle" src="/images/pics/blue.jpg"></a>
+      <a href="#!name"><span class="white-text name">Somebody</span></a>
+      <a href="#!email"><span class="white-text email">Somebody123@gmail.com</span></a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
+    <li><a href="#!"><i class="material-icons">perm_identity</i>Profile</a></li>
+    <li><a href="#!">My Collection</a></li>
+    <li><a href="#!">My Games</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><a class="subheader">Categories</a></li>
+    <li><a class="waves-effect" href="#!">Kids</a></li>
+    <li><a class="waves-effect" href="#!">Indie</a></li>
+    <li><a class="waves-effect" href="#!">Sandbox</a></li>
+    <li><a class="waves-effect" href="#!">Action</a></li>
+    <li><a class="waves-effect" href="#!">Minigames</a></li>
+    <li><a class="waves-effect" href="#!">Comedy</a></li>
+    <li><a class="waves-effect" href="#!">Medieval</a></li>
+    <li><a class="waves-effect" href="#!">Horror</a></li>
+    <li><a class="waves-effect" href="#!">Dancing/Singing</a></li>
+    <li><a class="waves-effect" href="#!">Art</a></li>
+    <li><a class="waves-effect" href="#!">Other</a></li>
   </ul>
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
-<!--<nav class="nav-extended">
-    <div class="nav-wrapper">
-      <img id=webpageLogo src="\images\official logo.png" alt="">
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href=""><img id="libraryPicture" width="60" class="img-circle" src="\images\library.png"></a></li>
-        <li><a href="/views/write.ejs"><img id="writePicture" width="60" class="img-circle" src="\images\pencil.png"></a></li>
-        <li><a href="/views/profile.ejs"><img id="profilePicture" width="60" class="img-circle" src="\images\profile.png"></a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-     <div class="nav-content">
-      <ul class="tabs tabs-transparent">
-        <li class="tab"><a href="#test1">Home</a></li>
-        <li class="tab"><a href="#test2">Trending</a></li>
-        <li class="tab"><a href="#test3">Books</a></li>
-        <li class="tab"><a href="#test4">Games</a></li>
-        <li class="tab"><a href="#test5">Music</a></li>
-        <li class="tab"><a href="#test6">Films</a></li>
-        <li class="tab"><a href="#test7">Art</a></li>
+  <div class="parallax-container">
+     <div class="parallax"><img src="images/pics/Videogame1.jpg"></div>
+   </div>
+   <div class="section white">
+     <div class="row container">
+       <h2 class="header AU">The Problem</h2>
+       <h5 class="grey-text text-darken-3 lighten-3 AU">
+        There are many online communities for writers, travelers, movie fanatics, critics and artists. So? There aren't any for gamers and game developers to play and create.
+        That's why we're here with Gamely, a online gaming community, for everone who likes to play.
+       </h5>
+     </div>
+   </div>
+   <div class="parallax-container">
+     <div class="parallax"><img src="images/pics/videojuego4.jpg"></div>
+   </div>
+   <div class="section white">
+     <div class="row container">
+       <h2 class="header AU">About Us</h2>
+       <h5 class="grey-text text-darken-3 lighten-3 AU">
+         We are a team of gamers and developers who united to make Gamely.
+         We wanted to create a community that both gamers and game developers could enjoy.
+       </h5>
+     </div>
+   </div>
+   <div class="parallax-container">
+     <div class="parallax"><img src="images/pics/videojuego3.jpg"></div>
+   </div>
+   <div class="section white">
+<div class="center-align">
+  <div class="section white">
+    <iframe src="http://www.powtoon.com/embed/dz8OL0yglTZ/" frameborder="0" height="491" width="800"></iframe>
+  </div>
+  <a id="promo" class="waves-effect waves-light btn-large" href="/home"><i class="material-icons left">input</i>Home</a>
+</div>
 
-      </ul>-->
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12" id="footerText">
+           <!-- <h5 class="white-text" id="footerText">About Us</h5>
+                <h5 class="white-text" id="footerText">Developers</h5>
+                <h5 class="white-text" id="footerText">Jobs</h5>
+                <h5 class="white-text" id="footerText">Directory</h5>
+                <h5 class="white-text" id="footerText">Business</h5>
+                <h5 class="white-text" id="footerText">Gamely Labs</h5>
+                <h5 class="white-text" id="footerText">Press</h5>
+                <h5 class="white-text" id="footerText">Terms</h5> -->
+                <p class="grey-text text-lighten-4"></p>
+              </div>
+              <div class="col l4 s6" id="footerText">
+                <h5 class="white-text"></h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Developers</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Jobs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Directory</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Business</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Gamely Labs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Press</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Terms</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            <!-- © 2014 Copyright Text -->
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
+
+  </body>
+
+</html>

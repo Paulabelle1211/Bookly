@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  background-color:#3b4654
+  background-color:#0d47a1
 }
 
 .img-circle{
@@ -127,4 +127,16 @@ nav {
 
 #navImage{
   width: 400px;
+}
+
+.side-nav .user-view .background, .side-nav .userView .background {
+    overflow: hidden;
+    position: absolute;
+  }
+
+.page-footer {
+  background-color:#0d47a1
+}
+.AU {
+  text-align: center;
 }
